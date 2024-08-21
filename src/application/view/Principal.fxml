@@ -94,18 +94,22 @@
                   <Insets left="50.0" right="50.0" />
                </padding>
             </FlowPane>
-            <FlowPane alignment="CENTER_LEFT" hgap="500.0" prefHeight="200.0" prefWidth="200.0" rowValignment="BASELINE" vgap="5.0">
-               <padding>
-                  <Insets left="50.0" right="50.0" />
-               </padding>
-            </FlowPane>
             <FlowPane alignment="CENTER_LEFT" hgap="200.0" prefHeight="200.0" prefWidth="200.0" rowValignment="BASELINE" vgap="5.0">
                <padding>
                   <Insets left="50.0" right="50.0" />
                </padding>
                <children>
                   <Button mnemonicParsing="false" onAction="#adicionarUsuario" prefWidth="100.0" text="Adicionar" />
+                  <Button mnemonicParsing="false" onAction="#deletar" text="Deletar" />
+               </children>
+            </FlowPane>
+            <FlowPane alignment="CENTER_LEFT" hgap="150.0" prefHeight="200.0" prefWidth="200.0" rowValignment="BASELINE" vgap="5.0">
+               <padding>
+                  <Insets left="50.0" right="50.0" />
+               </padding>
+               <children>
                   <Button mnemonicParsing="false" onAction="#update" prefWidth="100.0" text="Alterar" />
+                  <Button mnemonicParsing="false" onAction="#limpar" text="Limpar Campos" />
                </children>
             </FlowPane>
          </children>
